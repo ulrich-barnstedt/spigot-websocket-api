@@ -1,0 +1,9 @@
+name: WebSocket-API
+version: '${version}'
+main: dev.x81.wsapi.WsAPI
+api-version: 1.19
+prefix: WsAPI
+description: Websocket API
+
+depend:
+  - FastAsyncWorldEdit

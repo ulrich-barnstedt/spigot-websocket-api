@@ -85,11 +85,3 @@ export class Client {
         return this.internal_api;
     }
 }
-
-
-
-// if (this.errorDistributor.listenerCount().length === 0) {
-//     throw parsed.body;
-// } else {
-//     this.errorListeners.forEach(e => e(data));
-// }

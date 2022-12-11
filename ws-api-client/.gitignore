@@ -1,4 +1,4 @@
-*.js
-*.d.ts
+lib
 node_modules
 .idea
+old

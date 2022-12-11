@@ -74,18 +74,3 @@ public class Handler {
         socket.send(new Response(ResponseStatus.ERROR, "Not implemented.").toJSON());
     }
 }
-
-
-
-
-// String[] path = command.getMethod().split("\\.");
-// Object location = plugin;
-//
-// for (String part : path) {
-//     if (part.contains("(")) {
-//
-//         location.getClass().getMethod(path)
-//     } else {
-//
-//     }
-// }
